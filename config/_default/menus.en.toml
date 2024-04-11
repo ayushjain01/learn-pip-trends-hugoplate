@@ -1,0 +1,52 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Getting Started"
+url = "getting-started/"
+weight = 2
+
+[[main]]
+name = "Courses"
+url = "courses/"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
+
+[[main]]
+name = "Newsletter"
+url = "https://newsletter.piptrends.com"
+weight = 5
+
+[[main]]
+name = "pip Trends Home"
+url = "https://piptrends.com"
+weight = 6
+
+[[main]]
+name = "More"
+weight = 7
+
+[[main]]
+parent = "More"
+name = "Cheatsheets"
+url = "cheatsheets/"
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3

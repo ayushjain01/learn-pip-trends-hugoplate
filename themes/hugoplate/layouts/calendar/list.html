@@ -1,0 +1,23 @@
+<!-- layouts/calendar/list.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+</head>
+<body>
+    <header>
+        <h1>Calendar</h1>
+    </header>
+    <main>
+        {{ range .Pages }}
+            <article>
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p><strong>Date:</strong> {{ .Date.Format "January 2, 2006" }}</p>
+                <!-- You can display more information here as needed -->
+            </article>
+        {{ end }}
+    </main>
+</body>
+</html>

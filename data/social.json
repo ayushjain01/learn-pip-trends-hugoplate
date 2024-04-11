@@ -1,0 +1,44 @@
+{
+  "main": [
+    {
+      "name": "mail",
+      "icon": "fas fa-envelope",
+      "link": "mailto:ashok@piptrends.com"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/piptrends"
+    },
+    {
+      "name": "x",
+      "icon": "fab fa-x-twitter",
+      "link": "https://twitter.com/piptrends"
+    },
+    {
+      "name": "youtube",
+      "icon": "fab fa-youtube",
+      "link": "https://www.youtube.com/@piptrends"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/piptrends"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/company/pip-trends"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/tankala"
+    },
+    {
+      "name": "discord",
+      "icon": "fab fa-discord",
+      "link": "https://www.discord.gg/invite/RdYEmSWP5t"
+    }
+  ]
+}
